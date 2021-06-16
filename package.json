@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "lint-fix": "eslint --fix --ext .js,.vue src/"
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -28,7 +29,9 @@
     "lint-staged": "^9.5.0",
     "prettier": "^2.2.1",
     "sass-loader": "^8.0.2",
-    "typescript": "~4.1.5"
+    "style-resources-loader": "^1.4.1",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5"
   },
   "gitHooks": {
     "pre-commit": "lint-staged"
