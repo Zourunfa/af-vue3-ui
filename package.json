@@ -5,15 +5,35 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "test": "jest"
   },
   "dependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
+    "@babel/preset-typescript": "^7.16.0",
+    "@types/classnames": "^2.3.1",
+    "@types/jest": "^27.0.3",
+    "@vue/test-utils": "^2.0.0-rc.17",
+    "babel-jest": "26.0.0",
+    "classnames": "^2.3.1",
     "core-js": "^3.6.5",
-    "vue": "^3.0.0"
+    "jest": "26.0.0",
+    "jest-transform-css": "^3.0.0",
+    "mitt": "^3.0.0",
+    "style-resources-loader": "^1.4.1",
+    "ts-jest": "26.4.4",
+    "vee-validate": "^4.5.7",
+    "vue": "^3.0.0",
+    "yup": "^0.32.11"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/user-event": "^13.5.0",
+    "@testing-library/vue": "^6.4.2",
     "@typescript-eslint/eslint-plugin": "^4.18.0",
     "@typescript-eslint/parser": "^4.18.0",
+    "@vue/babel-preset-app": "^4.5.15",
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-plugin-typescript": "~4.5.0",
@@ -27,6 +47,9 @@
     "prettier": "^2.2.1",
     "sass": "^1.26.5",
     "sass-loader": "^8.0.2",
-    "typescript": "~4.1.5"
+    "style-resources-loader": "^1.4.1",
+    "typescript": "~4.1.5",
+    "vue-cli-plugin-style-resources-loader": "~0.1.5",
+    "vue-jest": "^5.0.0-alpha.10"
   }
 }
